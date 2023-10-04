@@ -1,5 +1,5 @@
 const groceriesList = () => {
-	const map = new Mmp();
+	const map = new Map();
 	map.set('Apples', 10);
 	map.set('Tomatoes', 10);
 	map.set('Pasta', 1);
