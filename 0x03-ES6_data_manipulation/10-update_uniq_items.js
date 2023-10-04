@@ -4,7 +4,7 @@ const updateUniqueItems = (items) => {
 	}
 	for (const [k, v] of items.entries()) {
 		if (v === 1) {
-			items.et(k, 100);
+			items.set(k, 100);
 		}
 	}
 	return items;
